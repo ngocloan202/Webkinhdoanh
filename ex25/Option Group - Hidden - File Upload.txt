@@ -1,0 +1,6 @@
+Option group
+Thẻ <optgroup>
+- Nhóm các option lại với nhau
+Thuộc tính:
+ - disabled: không cho chọn
+ - label="tên nhóm"
