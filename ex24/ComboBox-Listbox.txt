@@ -1,0 +1,20 @@
+1. ComboBox:
+ - Bao gồm một danh sách có nhiều phần tử. Tại một thời điểm chỉ có 1 phần tử được chọn
+ - Người dùng có thể chọn 1 phần tử trong sách bằng cách click vào mũi tên bên phải hộp danh sách
+ - Thẻ tạo hộp danh sách: <select>Danh sách phần tử</select>
+  * Thuộc tính: name="tên_đối tượng"
+ - Thẻ tạo 1 phần tử trong danh sách:
+  <option>Tiêu đề phần tử</option>
+  * Thuộc tính:
+   + value="giá trị": giá trị chương trình nhận được nếu phần tử được chọn
+   + selected: mặc định được chọn 
+
+2. Listbox:
+ - Tương tự như Combo box, tuy nhiên:
+  + có thể nhìn thấy nhiều phần tử cùng lúc
+  + có thể lựa chọn nhiều phần tử
+ - Thẻ: <select>...</select>
+ - Thuộc tính: tương tự của combo và có 2 thuộc tính khác:
+  + size="số dòng"
+  + multiple: cho phép lựa chọn nhiều phần tử cùng lúc
+ - Thẻ <option>...</option> tương tự của combo box  

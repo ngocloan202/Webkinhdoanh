@@ -1,0 +1,15 @@
+#Mục tiêu bài học:
+- Củng cố lại lý thuyết và kỹ thuật thiết kế bảng bằng thẻ <table>
+- Nhận dạng được cấu trúc đầy đủ của <table>, bao gồm thẻ <caption>
+thẻ <thead>, thẻ <tbody> và <tfoot>
+- Thiết kế được bảng biểu có phân nhóm theo <thead>, <tbody> và <tfoot>
+<!--
+    Thiết kế bảng bảng trong HTML:
+    <td>, <th>
+    - width="rộng", height="cao"
+    - align="căn_lề": left, right, center, justify
+    - valign= "căn lề đứng": top, middle, bottom
+    - colspan="n": trộn cột, mặc định = 1
+    - rowspan="n": trộn dòng, mặc định = 1
+    - nowrap: nếu có sẽ làm cho dữ liệu trong ô không tự xuống dòng
+-->

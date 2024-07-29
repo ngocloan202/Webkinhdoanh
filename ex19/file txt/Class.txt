@@ -1,0 +1,12 @@
+Khai báo class gắn với 1 tag cụ thể:
+ten_tag.ten_class
+Khai báo class không gắn với tag:
+.ten_class
+==> Tên class nên đặt mang tính ý nghĩa, tránh bắt đầu bằng số cũng như có
+khoảng trắng (vì đôi khi có một số trình duyệt không hỗ trợ)
+
+Định danh:
+Khai báo cho thẻ cụ thể
+tên_thẻ#định_danh
+Khai báo tổng quát
+#định_danh

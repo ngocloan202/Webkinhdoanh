@@ -1,0 +1,74 @@
+Mô hình box:
+Total element width = 
+width +
+padding-left + padding-right +
+border-left + border-right + 
+margin-left + margin-right
+
+Thuộc tính:
+margin: được sử dụng để tạo khoảng cách xung quanh các phần tử, bên ngoài các đường viền của chúng
+border: đường viền
+padding: được sử dụng để tạo khoảng cách giữa nội dung của phần tử và đường viền của nó.
+
+* Margin:
+ - Giá trị: auto (trình duyệt tự tính), px, %, inherit (kế thừa từ element chứa nó)
+ - Có thể khai báo số âm
+- Thuộc tính: 
+ + margin-top
+ + margin-left
+ + margin-right
+ + margin: top -> right -> bottom -> left
+ 
+vidu:
+ 1. margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 15px;
+    => margin: 10px 15px 20px 5px;
+ 
+ 2. margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    => margin: 10px 15px 20px;
+
+ 3. margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+     => margin: 10px 15px;
+
+ 4. margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+     => margin: 10px;
+
+ * Padding: Giá trị: px, %
+ - Thuộc tính: 
+  + padding-top
+  + padding-left
+  + padding-right
+  + padding: top -> right -> bottom -> left
+
+ * Display
+   - Block element: chiếm trọn 1 hàng
+     - div, h1, li...
+   - Inline element: chỉ chiếm 1 vùng trong hàng
+     - span, a,...
+   - display: block/inline 
+     - thay đổi cách hiển thị của element
+ * Position: khai báo kiểu định vị element
+     - static: định vị theo mặc định
+     - relative: định vị tương đối
+     - fixed: định vị cố định
+     - absolute: định vị cố định dựa theo parent gần nhất có position không phải static
+ * left, right, top, bottom: xác định vị trí element so với các biên (trái, phải, trên, dưới)
+ * Floating
+     - float: các element kế tiếp sẽ được đẩy lên nằm kế element float (trái hoặc phải)
+      + left
+      + right
+     - clear: xóa float
+      + left
+      + right
+      + both

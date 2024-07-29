@@ -1,0 +1,25 @@
+Label: <label></label>
+ - Tạo tiêu đề cho các control trong form
+ - Thuộc tính:
+  - for="id_control":
+   * id của control gắn với label
+   * khi click vào label sẽ focus đến control đó
+Textbox:
+ - Sử dụng để nhập các văn bản ngắn (trên 1 dòng) hoặc mật khẩu
+ - Thẻ: <input>
+ - Thuộc tính:
+  - name="tên": quan trọng
+  - type="text": ô nhập văn bản thường, "password": ô nhập mật khẩu, "email": ô nhập email, "url": ô nhập URL, "number": ô nhập số
+  - value="giá trị mặc định"
+  - placeholder="dòng chữ gợi ý"
+  - Required bắt buộc
+Button:
+ - Sử dụng để người dùng ra lệnh thực hiện công việc
+ - Trên web có 3 loại nút:
+  + submit: tự động ra lệnh gửi dữ liệu
+  + reset: đưa mọi dữ liệu về trạng thái mặc định
+  + normal: người lập trình tự xử lý
+ - Thuộc tính:
+  + name="tên_đối tượng", id="id_đối tượng"
+  + type="submit": nút submit, "reset": nút reset, "button": ta tự viết script để xử lý
+  + value="tiêu đề nút"

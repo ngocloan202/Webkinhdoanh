@@ -1,0 +1,18 @@
+1. Checkbox:
+ - Cho phép chọn nhiều lựa chọn trong một nhóm lựa được đưa ra bằng đánh dấu
+ - Thẻ: <input> (mỗi ô nhập cần 1 thẻ)
+ - Thuộc tính:
+  + name="tên": quan trọng
+  + type="checkbox"
+  + value="giá trị": đây là giá trị chương trình sẽ nhận được nếu người dùng chọn ô này
+  + checked: mặc định được chọn
+
+2. Radio Button:
+ - Cho phép chọn một lựa chọn trong một nhóm lựa chọn được đưa ra
+ - Trên 1 form có thể có nhiều nhóm lựa chọn kiểu này:
+ - Thẻ: <input>: mỗi ô cần 1 thẻ 
+ - Thuộc tính:
+  + name="tên": quan trọng. Các đối tượng cùng tên thì thuộc cùng nhóm
+  + type="radio"
+  + value="giá trị": đây là giá trị chương trình sẽ nhận được nếu người dùng chọn ô này
+  + checked: mặc định được chọn

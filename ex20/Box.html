@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Demo Box</title>
+        <style type="text/css">
+            /* The alert message box */
+            .alert{
+                padding: 5px;
+                background-color: grey;
+                color: white;
+                margin-bottom: 15px;
+            }
+            .borderdiv{
+                border: inset;
+                text-align: justify;
+            }
+            .closebtn{
+                margin-left: 15px;
+                position: relative;
+                color: white;
+                font-weight: bold;
+                float: right;
+                font-size: 22px;
+                line-height: 20px;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="borderdiv">
+            <div class="alert">
+                <span class="closebtn" onclick="this.parentElement.parentElement.style.display = 'none';">
+                    <img src="close_red.webp" alt="" width="30" height="30">
+                </span>
+                Khoa Hệ Thống Thông Tin - UEL
+            </div>
+        </div>
+    </body>
+</html>

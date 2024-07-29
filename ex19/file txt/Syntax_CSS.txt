@@ -1,0 +1,5 @@
+Cú pháp của CSS thường được tổ chức thành 3 phần: bộ selector; property và value:
+selector {property: value}
+body {color: black}
+p {font-family: "sans serif"}
+p {text-align: center; color: red}

@@ -1,0 +1,17 @@
+Tag <marquee>: sẽ làm chạy hầu hết các đối tượng trong thẻ như: chữ, hình ảnh và các định dạng khác
+Cú pháp sau:
+<marquee>đối tượng chạy</marquee>
+
+Marquee:
+Thuộc tính direction (hướng chạy):
+ - Mặc định các đối tượng sẽ chạy từ phải sang trái. Tuy nhiên ta có thể thay đổi hướng chạy
+ - Các giá trị thuộc tính: down, left, right, up
+Thuộc tính behavior (kiểu chạy):
+ - Slide: chạy 1 lần rồi dừng
+ - Scroll: chạy bình thường
+ - Alternate: chạy qua rồi chạy lại
+Thuộc tính scrollamount (tốc độ chạy):
+ - Giúp tăng hay giảm tốc độ chạy, thuộc tính này nhận giá trị chạy là số nguyên
+Thuộc tính loop (chế độ lặp):
+ - Lặp 1 lần: loop = 1
+ - Lặp liên tục: loop = -1

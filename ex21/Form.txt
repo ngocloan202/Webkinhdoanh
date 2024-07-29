@@ -1,0 +1,28 @@
+Form:
+ - Là nơi chứa các thành phần nhập liệu khác
+ - Không nhìn thấy khi trang web được hiển thị
+ - Các thuộc tính của <form>
+   + name: tên form
+   + action: chỉ định trang web sẽ nhạn xử lý dữ liệu từ FORM này khi có sự kiện clip của button SUBMIT
+   + method: xác định phương thức chuyển dữ liệu (POST, GET, PUT, DELETE)
+
+Phân biệt phương thức GET/POST/PUT/DELETE
+=> 4 loại phương thức này cho phép ta truyền dữ liệu từ Client lên Server để xử lý dữ liệu, mỗi loại phương
+thức sẽ có cách truyền và nhận dữ liệu khác nhau (tùy vào mục đích xử lý kỹ thuật của Lập Trình Viên)
+- Phương thức GET:
+ + Các đối số của Form được ghi kèm theo vào đường dẫn URL của thuộc tính Action trong tag <Form>
+ + Khối lượng dữ liệu đối số được truyền đi của Form bị giới hạn bởi chiều dài tối đa của một URL trên Address
+ bar. (tối đa của một URL là 2048 bytes)
+ + Thường được dùng để gửi dữ liệu và truy vấn dữ liệu trở về Client
+ - Thiết kế một form đơn giản bao gồm 2 textbox và 1 button dạng SUBMIT
+ - Khi người dùng chọn vào nút Submit thì dữ liệu trong 2 textbox sẽ được truyền theo phương thức get
+
+- Phương thức POST:
+ + Các đối só của Form được truyền "ngầm" bên dưới
+ + Khối lượng dữ liệu đối số được truyền đi của Form không phụ thuộc vào URL --> không bị giới hạn
+ + Chỉ sử dụng được phương thức truyền POST khi Action chỉ định đến trang web thuộc dạng xử lý trên Server
+ --> Thường được dùng để lưu mới dữ liệu từ Client gửi lên Server
+
+- Phương thức PUT:
+ + Thiết kế một form đơn giản bao gồm 2 textbox và 1 button dạng Submit
+ + Khi người dùng chọn vào nút Submit thì dữ liệu trong 2 textbox sẽ được truyền theo phương thức post 

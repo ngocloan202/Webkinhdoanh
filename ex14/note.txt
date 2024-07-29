@@ -1,0 +1,44 @@
+<!--Thiết kế bảng với thẻ table-->
+<!--
+    th: tạo nội dung in đậm căn giữa (tạo các cột tiêu đề)
+    td: tạo các cột thông thường
+    tr: tạo dòng
+-->
+<!--
+    Để tạo bảng ta dùng tag:
+    <table> ... </table>
+    Các thuộc tính:
+        - caption: định nghĩa tiêu đề cho bảng
+        - border="số": kích thước đường viền. Đặt bằng 0 (mặc định): không có đường viền
+        - width="rộng", height="cao": độ rộng và độ cao của bảng. Có thể đặt theo 2 cách:
+            * n: (n là số) Quy định độ rộng, cao là n pixels
+            * n%: Quy định độ rộng, cao là n% độ rộng, cao của đối tượng chứa bảng
+-->
+<!--
+    Các thuộc tính:
+    - cellspacing="số": khoảng cách giữa 2 ô liên tiếp
+    - cellpadding="số": khoảng cách từ góc ô đến nội dung ô
+    - bgcolor="màu": màu nền của bảng
+    - background="địa_chỉ_ảnh": địa chỉ của file ảnh làm nền cho bảng. Nên sử dụng đường dẫn tương đối nếu có thể
+-->
+
+<!--
+    Để tạo dòng cho bảng dùng tag <tr> ... </tr>
+        Ghi chú: bảng có bao nhiêu dòng thì có bấy nhiêu cặp thẻ này
+    Tạo ô:
+        - Ô tiêu đề của bảng: <th> ... </th>
+        - Ô dữ liệu: <td> ... </td>
+            Tổng số thẻ <td> và <th> bằng số ô của bảng. Dòng có bao nhiêu ô thì 
+            có bấy nhiêu thẻ <td> và/hoặc <th> nằm trong cặp thẻ <tr> ... </tr> tương ứng
+        - Chú ý: Để có được một ô trống trong bảng (ô không có dữ liệu) thi cần đặt nội dung ô là &nbsp;
+-->
+<!--
+    Thiết kế bảng bảng trong HTML:
+    <td>, <th>
+    - width="rộng", height="cao"
+    - align="căn_lề": left, right, center, justify
+    - valign= "căn lề đứng": top, middle, bottom
+    - colspan="n": trộn cột, mặc định = 1
+    - rowspan="n": trộn dòng, mặc định = 1
+    - nowrap: nếu có sẽ làm cho dữ liệu trong ô không tự xuống dòng
+-->

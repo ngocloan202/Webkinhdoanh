@@ -1,0 +1,41 @@
+Loại 1: Inline Style Sheet
+Định nghĩa trong thuộc tính style cho từng tag html
+Syntax:
+<TagName style="property1: value1; property2:value2; .....;
+propertyN:valueN;">
+    Dữ liệu của tag
+</TagName>
+
+Ví dụ:
+<p style="color: red; margin-left: 20px; font-size:48px;">
+This is a paragraph
+</p>
+
+------------------------------------------------------------------------
+Loại 2: Internal Style Sheet
+Nhúng trong tag <style> của trang HTML (đặt trong <head>)
+<head>
+    <style type="text/css">
+        SelectorName
+        {
+            property1:value1;
+            property2:value2;
+            .................
+            propertyN:propertyN;
+        }
+    </style>
+</head>
+-------------------------------------------------------------------------
+Loại 3: External Style Sheet
+Mọi style đều lưu trong file có phần mở rộng là *.css
+Syntax giống như trong Internal CSS
+Liên kết bằng tag link:
+ <head>
+    <link rel="stylesheet" href="URL" type="text/css">
+ </head>
+Liên kết bằng tag style dùng @import URL
+ <head>
+    <style type="text/css">
+        @import url(URL);
+    </style>
+ </head>

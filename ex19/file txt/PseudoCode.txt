@@ -1,0 +1,11 @@
+Pseudo Class & Element
+Pseudo class: được xác định bởi dấu hai chấm
+ p: first-line {font-size:larger}
+ p: first-letter {font-size: 24px; color: orange}
+Định dạng dựa vào trạng thái của liên kết, sự kiện chuột
+Có thể kết hợp với Selector khác. Thường được dùng với các link
+
+- a:link (liên kết mới mà chưa nhấn chuột vào link)
+- a:visited (liên kết đã nhấn chuột vào link)
+- a:hover (liên kết khi di chuyển chuột vào link)
+- a:active (liên kết khi nhấn chuột vào link mà chưa nhà chuột)

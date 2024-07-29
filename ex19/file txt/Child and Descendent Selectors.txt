@@ -1,0 +1,6 @@
+Child and Descendent Selectors
+Child Selectors: khai báo style cho các element nằm trong một element nào đó (cấp 1)
+parent > child { ... }
+
+Descendent Selectors: khai báo cho tất cả element thỏa điều kiện trong một element nào đó
+parent descendent { ... }
