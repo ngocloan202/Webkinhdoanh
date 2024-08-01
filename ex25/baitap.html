@@ -1,6 +1,23 @@
 <html>
   <head>
     <title>Tiêu đề trang</title>
+    <style>
+      .center {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+      }
+
+      label[for="amnhac"] {
+        margin-right: 41px;
+      }
+      label[for="nghiencuu"] {
+        margin-right: 25px;
+      }
+      input[id="dangky"] {
+        margin-right: 15px;
+      }
+    </style>
   </head>
   <body>
     <h2
@@ -11,138 +28,182 @@
     </h2>
     <hr />
     <table align="center">
-      <tr>
-        <td style="text-align: right">
-          <label for="username" style="font-weight: bold"
-            >Tên đăng nhập:
-          </label>
-        </td>
-        <td>
-          <input type="text" id="username" required />
-        </td>
-        <td style="color: red">*</td>
-      </tr>
+      <div>
+        <tr>
+          <td style="text-align: right">
+            <label for="username" style="font-weight: bold"
+              >Tên đăng nhập:
+            </label>
+          </td>
+          <td>
+            <input type="text" id="username" required />
+          </td>
+          <td style="color: red">*</td>
+        </tr>
+      </div>
 
-      <tr>
-        <td style="text-align: right">
-          <label for="password" style="font-weight: bold">Mật khẩu:</label>
-        </td>
-        <td>
-          <input type="password" id="password" required />
-        </td>
-        <td style="color: red">*</td>
-        <td style="text-align: right">(Tối thiểu 5 ký tự)</td>
-      </tr>
-      <tr>
-        <td style="text-align: right">
-          <label for="re_password" style="font-weight: bold"
-            >Nhập lại mật khẩu:</label
-          >
-        </td>
-        <td>
-          <input type="password" id="re_password" required />
-        </td>
-        <td style="color: red">*</td>
-      </tr>
+      <div>
+        <tr>
+          <td style="text-align: right">
+            <label for="password" style="font-weight: bold">Mật khẩu:</label>
+          </td>
+          <td>
+            <input type="password" id="password" required />
+          </td>
+          <td style="color: red">*</td>
+          <td style="text-align: right">(Tối thiểu 5 ký tự)</td>
+        </tr>
+      </div>
+
+      <div>
+        <tr>
+          <td style="text-align: right">
+            <label for="re_password" style="font-weight: bold"
+              >Nhập lại mật khẩu:</label
+            >
+          </td>
+          <td>
+            <input type="password" id="re_password" required />
+          </td>
+          <td style="color: red">*</td>
+        </tr>
+      </div>
     </table>
     <hr />
     <h4 style="font-style: italic; font-weight: bold; margin-top: -5px">
       :: Nhập thông tin để lấy lại mật khẩu khi quên
     </h4>
-    <table align="center" style="margin-top: -20px">
-      <tr>
-        <td style="text-align: right">
-          <label for="re_password" style="font-weight: bold"
-            >Nhập lại mật khẩu:</label
-          >
-        </td>
-        <td>
-          <select name="question" id="">
-            <option value="chon" selected>[Chọn câu hỏi]</option>
-            <option value="truong">Hiện tại bạn đang học trường nào?</option>
-            <option value="nghe">Bạn đang làm nghề gì?</option>
-            <option value="nhac">Bài hát bạn yêu thích là gì?</option>
-            <option value="dongvat">Con vật bạn yêu thích là gì?</option>
-            <option value="nguoiyeu">Bạn đã có người yêu chưa?</option>
-          </select>
-        </td>
-      </tr>
+    <table align="center">
+      <div style="margin-top: -20px">
+        <tr>
+          <td style="text-align: right; font-weight: bold">Câu hỏi bí mật:</td>
+          <td>
+            <select name="question" id="">
+              <option value="chon" selected>[Chọn câu hỏi]</option>
+              <option value="truong">Bạn đang học trường nào?</option>
+              <option value="nghe">Bạn đang làm nghề gì?</option>
+              <option value="nhac">Bài hát bạn yêu thích là gì?</option>
+              <option value="dongvat">Con vật bạn yêu thích là gì?</option>
+              <option value="nguoiyeu">Bạn đã có người yêu chưa?</option>
+            </select>
+          </td>
+        </tr>
+      </div>
 
-      <tr>
-        <td style="text-align: right">
-          <label for="answer" style="font-weight: bold">Trả lời:</label>
-        </td>
-        <td>
-          <input type="text" id="username" required />
-        </td>
-      </tr>
-      <!--
-          <tr align="center">
-            <td colspan="2">
-              <input type="submit" name="" id="" value="Đăng ký" />
-              <input type="reset" value="Xóa" />
-            </td>
-          </tr>
-          -->
+      <div>
+        <tr>
+          <td style="text-align: right">
+            <label for="answer" style="font-weight: bold">Trả lời:</label>
+          </td>
+          <td>
+            <input type="text" id="username" required />
+          </td>
+        </tr>
+      </div>
     </table>
     <hr />
     <h4 style="font-style: italic; font-weight: bold; margin-top: -5px">
       :: Thông tin cá nhân
     </h4>
     <table align="center" style="margin-top: -20px">
-      <tr>
-        <td style="text-align: right">
-          <label for="last_middle_name" style="font-weight: bold"
-            >Họ và chữ lót:</label
-          >
-        </td>
-        <td>
-          <input type="text" id="last_middle_name" />
-        </td>
-      </tr>
+      <div>
+        <tr>
+          <td style="text-align: right">
+            <label for="last_middle_name" style="font-weight: bold"
+              >Họ và chữ lót:</label
+            >
+          </td>
+          <td>
+            <input type="text" id="last_middle_name" />
+          </td>
+        </tr>
+      </div>
 
-      <tr>
-        <td style="text-align: right">
-          <label for="name" style="font-weight: bold">Tên:</label>
-        </td>
-        <td>
-          <input type="text" id="name" />
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: right; font-weight: bold">Ngày sinh:</td>
-        <td>
-          <input type="date" id="birth" />
-        </td>
-      </tr>
+      <div>
+        <tr>
+          <td style="text-align: right">
+            <label for="name" style="font-weight: bold">Tên:</label>
+          </td>
+          <td>
+            <input type="text" id="name" />
+          </td>
+        </tr>
+      </div>
 
-      <tr>
-        <td style="text-align: right; font-weight: bold">Giới tính:</td>
-        <td>
-          <input type="radio" name="sex" value="nam" id="nam" />
-          <label for="nam">Nam</label>
-          <input type="radio" name="sex" value="nu" id="nu" />
-          <label for="nu">Nữ</label>
-        </td>
-      </tr>
-      <td style="text-align: right; font-weight: bold">Nghề nghiệp liên quan:</td>
-      <td>
-        <select name="question" id="">
-          <option value="chon" selected>[Chọn ngành nghề]</option>
-          <option value="cntt">Công nghệ thông tin</option>
-          <option value="ktpy">Kỹ thuật phần mềm</option>
-          <option value="nhac">Bài hát bạn yêu thích là gì?</option>
-          <option value="dongvat">Con vật bạn yêu thích là gì?</option>
-          <option value="nguoiyeu">Bạn đã có người yêu chưa?</option>
-        </select>
-      </td>
+      <div>
+        <tr>
+          <td style="text-align: right; font-weight: bold">Ngày sinh:</td>
+          <td>
+            <input type="date" id="birth" required />
+          </td>
+        </tr>
+      </div>
+
+      <div>
+        <tr>
+          <td style="text-align: right; font-weight: bold">Giới tính:</td>
+          <td>
+            <input type="radio" name="sex" value="nam" id="nam" />
+            <label for="nam">Nam</label>
+            <input type="radio" name="sex" value="nu" id="nu" />
+            <label for="nu">Nữ</label>
+          </td>
+        </tr>
+      </div>
+
+      <div>
+        <tr>
+          <td style="text-align: right; font-weight: bold">
+            Nghề nghiệp liên quan:
+          </td>
+          <td>
+            <select name="question" id="">
+              <option value="chon" selected>[Chọn ngành nghề]</option>
+              <option value="cntt">Công nghệ thông tin</option>
+              <option value="ktpy">Kỹ thuật phần mềm</option>
+              <option value="attt">An toàn thông tin</option>
+              <option value="kinhte">Kinh tế</option>
+              <option value="marketing">Marketing</option>
+              \
+              <option value="bvtt">Bảo vệ thực vật</option>
+            </select>
+          </td>
+        </tr>
+      </div>
     </table>
     <hr />
     <h4 style="font-style: italic; font-weight: bold; margin-top: -5px">
       :: Sở thích (tùy chọn)
     </h4>
-    <table align="center" style="margin-top: -20px">
-        
+    <table style="margin-top: -15">
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" value="amnhac" id="amnhac" />
+          <label for="amnhac">Âm nhạc</label>
+
+          <input type="checkbox" value="dulich" id="dulich" />
+          <label for="dulich">Du lịch</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" value="nghiencuu" id="nghiencuu" />
+          <label for="nghiencuu">Nghiên cứu</label>
+
+          <input type="checkbox" value="kinhdoanh" id="kinhdoanh" />
+          <label for="kinhdoanh">Kinh doanh</label>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <table align="center">
+      <tr>
+        <td colspan="2">
+          <input type="submit" name="" id="dangky" value="Đăng ký" />
+          <input type="reset" value="Xóa" />
+        </td>
+      </tr>
     </table>
   </body>
 </html>
